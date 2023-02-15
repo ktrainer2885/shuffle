@@ -17,7 +17,11 @@ def print_hi(name):
 
 if __name__ == '__main__':
     practiceDeck = deck.Deck(60)
-    practiceDeck.print()
+    practiceDeck.shuffle()
+    practiceDeck.shuffle()
+    practiceDeck.shuffle()
+    practiceDeck.shuffle()
+    practiceDeck.shuffle()
     practiceDeck.shuffle()
     practiceDeck.print()
 

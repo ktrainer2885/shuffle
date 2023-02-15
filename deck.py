@@ -17,6 +17,11 @@ class Deck:
             practiceCard = card.Card(i, "R")
             self.deck.append(practiceCard)
 
+# The shuffle is just a basic split in half and recombining it with the let deck starting first.
+    # Make the left and right deck switch places every other shuffle
+    #make a method to shuffle multiple times
+    # add the randomnessof shuffling. not 1 to 1, but 2 to 3 , 2 to  1, 5 to  3 etc
+    # It is never a perfect shuffle of 1 card from left and right
     def shuffle(self):
         left = self.deck[:self.middleIndex]
         right = self.deck[self.middleIndex:]
